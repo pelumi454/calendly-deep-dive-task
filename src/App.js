@@ -1,10 +1,12 @@
-import {  } from "../src/assets/images/deepdivelogo.png"
+import Navbar from "./components/Navbar/Navbar";
+import Landingpage from './components/Landing Page/Landingpage';
+
 
 function App() {
   return (
-    <div className="App">
-      <img src={logo} alt="" />
-      <p>Hello Calendly</p>
+    <div>
+      <Navbar />
+      <Landingpage /> 
     </div>
   );
 }

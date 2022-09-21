@@ -1,11 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap');
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* font-family: "Roboto", sans-serif; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* Nabvar */
+.navbar-container {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  margin: 0px auto;
+  padding: 22px;
+  box-shadow: rgb(0 0 0 / 4%) 0px 4px 4px;
+}
+ul li {
+  font-size: 1rem;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    transition: all 0.2s linear 0s;
+    white-space: nowrap;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-family: 'Roboto';
+    padding-right: 2rem;
+    margin-top: 1.3rem;
+    cursor: pointer;
+}
+.navlink {
+  padding-right: 2rem;
+}
+.navbar-btn {
+  transition: all 0.2s linear 0s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  margin: 8px 0px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  border-color: transparent;
+  background-color: rgb(0, 107, 255);
+  padding: 8px 14px;
+  color: rgb(255, 255, 255);
+  outline: none;
+  cursor: pointer;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+/* Hero section */
+.hero-section {
+  width: 85%;
+  margin: auto;
+}
+.header-text {
+  font-size: 4.20875rem;
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'Lato', sans-serif; */
+  line-height: 1.2;
+  font-weight: 1000;
+  white-space: pre-line;
+  text-align: left;
+  color: rgb(11, 53, 88);
+  margin-top: 6rem;
+  width: 10%;
+}
+.span-header-text {
+  color: rgb(0, 107, 255);
+  width: 45%;
+}
+.hero-bg-sub-text {
+  text-align: left;
+  color: rgb(71, 103, 136);
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 300;
+  width: 100%;
+  max-width: 420px;
+  margin-top: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+.hero-bg-img {
+  margin-top: 2rem;
+  width: 50%;
 }
