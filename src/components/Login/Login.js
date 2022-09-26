@@ -8,7 +8,7 @@ const Login = () => {
       <div className="login-body">
         <div className="login-header">
           <img src={logo} alt="calsy-logo" className="logo" />
-          <p>Log In to your Calsy account</p>
+          <p className="">Log In to your Calsy account</p>
         </div>
         <form>
           <div>
