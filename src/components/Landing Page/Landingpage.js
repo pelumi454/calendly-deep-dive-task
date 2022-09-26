@@ -1,6 +1,6 @@
 import React from 'react'
 // import heroBg from "../../assets/images/hero-bg.png"
-import herobg2 from "../../assets/images/herobg2.jpeg"
+import herobg2 from "../../assets/images/herobg2.png"
 
 const landingpage = () => {
   return (
