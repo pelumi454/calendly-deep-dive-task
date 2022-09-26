@@ -32,7 +32,9 @@ const Login = () => {
             </div>
           </div>
           <div>
-            <p className="forgot-password">Don't have an account? Sign up.</p>
+            <p className="forgot-password">
+              Don't have an account? <span className="signup-text">Sign up.</span>
+            </p>
           </div>
           <div>
             <button type="submit" className="button">
