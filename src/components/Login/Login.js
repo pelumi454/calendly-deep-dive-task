@@ -8,11 +8,13 @@ const Login = () => {
       <div className="login-body">
         <div className="login-header">
           <img src={logo} alt="calsy-logo" className="logo" />
-          <p className="login-text mt-3">Log In to your Calsy account</p>
+          <p className="login-text mt-3">Log into your Calsy account</p>
         </div>
         <form>
           <div>
-            <label for="basic-url">Email Address</label>
+            <label for="basic-url" className="form-label">
+              Email Address
+            </label>
             <div className="input-group mb-3">
               <Input type="email" name="email" />
             </div>
@@ -33,7 +35,8 @@ const Login = () => {
           </div>
           <div>
             <p className="forgot-password">
-              Don't have an account? <span className="signup-text">Sign up.</span>
+              Don't have an account?{" "}
+              <span className="signup-text">Sign up.</span>
             </p>
           </div>
           <div>
