@@ -33,8 +33,8 @@ const SignIn = () => {
           </div>
           <div>
             <p className="forgot-password">
-              Don't have an account?{" "}
-              <span className="signup-text">Sign up.</span>
+              Already have an account?{" "}
+              <span className="signup-text">Log in</span>
             </p>
           </div>
           <div>
