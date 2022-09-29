@@ -1,4 +1,6 @@
 import React from 'react'
+import { Input } from "../../components/Input/input";
+import logo from "../../assets/images/deepdivelogo.jpg";
 
 const SignIn = () => {
   return (
